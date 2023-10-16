@@ -1,8 +1,14 @@
 <script>
 import axios from 'axios';
 import { store } from './data/store';
+import Header from './components/Partials/Header.vue';
+import Main from './components/Partials/Main.vue';
 export default {
   name: 'App',
+  components: {
+    Header,
+    Main,
+  },
   data() {
     return {
       store,
@@ -30,7 +36,8 @@ export default {
 
 
 <template>
-  <h1>Ciao</h1>
+  <Header />
+  <Main />
 </template>
 
 
