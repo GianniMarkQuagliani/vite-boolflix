@@ -12,6 +12,7 @@
     "@fontsource/montserrat": "^5.0.13",
     "axios": "^1.5.1",
     "bootstrap": "^5.3.2",
+    "flag-icons": "^6.11.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
