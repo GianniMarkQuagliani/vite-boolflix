@@ -2,10 +2,10 @@
   <div id="app">
     <!-- Barra di ricerca e filtro generi per l'utente -->
     <Header @updateSearch="updateSearch" @filterGenre="filterGenre" :genre="genre" />
-
+    <!-- Componente Main per la visualizzazione dei film -->
     <main class="container-xl mt-3">
-      
-
+      <!-- Mostra il titolo della sezione Film solo se è stata effettuata una ricerca -->
+      <h2>{{ headingTop }}</h2>
       <!-- Componente Main per la visualizzazione dei film -->
       <Main :filmData="genreSearchMovie" />
 
